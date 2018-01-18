@@ -49,18 +49,6 @@
 	    <url-pattern>*.jpg</url-pattern>
 	    <url-pattern>*.png</url-pattern>    
 	</servlet-mapping>
-    
-    
-    <servlet >
-        <servlet-name>cxf</servlet-name>
-        <servlet-class>org.apache.cxf.transport.servlet.CXFServlet</servlet-class>
-        <load-on-startup>1</load-on-startup>
-    </servlet >
-
-    <servlet-mapping>
-        <servlet-name>cxf</servlet-name>
-        <url-pattern>/ws/*</url-pattern>
-    </servlet-mapping>
   
   	<!-- 加载log4j的配置文件log4j.properties -->
     <context-param>
